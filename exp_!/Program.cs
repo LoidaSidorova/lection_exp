@@ -44,18 +44,36 @@
 
 //Example_006
 
-int a = 1;
-int b = 2;
-int c = 6;
-int d = 8;
-int e = 4;
+// int a = 1;
+// int b = 2;
+// int c = 6;
+// int d = 8;
+// int e = 4;
 
-int max = a;
+// int max = a;
 
-if (b > max) max = b;
-if (c > max) max = c;
-if (d > max) max = d;
-if (e > max) max = e;
+// if (b > max) max = b;
+// if (c > max) max = c;
+// if (d > max) max = d;
+// if (e > max) max = e;
 
-Console.Write("max = ");
-Console.WriteLine(max);
+// Console.Write("max = ");
+// Console.WriteLine(max);
+
+//Example_007_Magic
+
+
+Console.Clear();
+Console.SetCursorPosition(10, 4);
+Console.WriteLine("+");
+
+int xa = 1, ya = 1, xb = 30, yb = 1, xc = 1, yc = 30;
+
+Console.SetCursorPosition(xa, ya);
+Console.WriteLine("+");
+
+Console.SetCursorPosition(xb, yb);
+Console.WriteLine("+");
+
+Console.SetCursorPosition(xc, yc);
+Console.WriteLine("+");
